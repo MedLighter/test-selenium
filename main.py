@@ -35,7 +35,7 @@ def second_test_case():
     # print(favorite)
     for _ in range(3):
         favorite[_].click()
-        # time.sleep(1)
+        time.sleep(1)
     driver.get(url="https://www.litres.ru/pages/new_liked/")
 
     time.sleep(3)
