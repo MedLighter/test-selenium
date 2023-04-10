@@ -1,6 +1,9 @@
 "# test-selenium" 
 
-create a ".env" file and fill it in this way:
+create a ".env" file
 
+for example:
+```
 email=your email
 password=your password
+```
