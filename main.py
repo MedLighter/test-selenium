@@ -24,7 +24,7 @@ def first_test_case(url_="https://www.litres.ru/pages/login/"):
 
 
 def second_test_case():
-    """Дабавление нескольких книг в отложенные"""
+    """Добавление нескольких книг в отложенные"""
     driver.get(url="https://www.litres.ru")
     # time.sleep(3)
     input_search = driver.find_element(by=By.CLASS_NAME, value="SearchForm-module__input_1E6az")
